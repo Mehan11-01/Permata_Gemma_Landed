@@ -38,6 +38,36 @@
   });
 })(jQuery);
 
+// packages carousel
+$(".packages-carousel").owlCarousel({
+  autoplay: true,
+  smartSpeed: 1000,
+  center: false,
+  dots: false,
+  loop: true,
+  margin: 25,
+  nav: true,
+  navText: [
+    '<i class="bi bi-arrow-left"></i>',
+    '<i class="bi bi-arrow-right"></i>',
+  ],
+  responsiveClass: true,
+  responsive: {
+    0: {
+      items: 1,
+    },
+    768: {
+      items: 2,
+    },
+    992: {
+      items: 2,
+    },
+    1200: {
+      items: 3,
+    },
+  },
+});
+
 // Contact form handling
 const scriptURL =
   "https://script.google.com/macros/s/AKfycbwT89YN_p4RaKWWdVIrOosNDSWpvk3cCUwrEEYlIlurg5q_XEFi4luF9ZsSn3Bw2I8k6w/exec";
