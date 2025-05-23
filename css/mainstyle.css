@@ -392,11 +392,9 @@
 .packages .packages-carousel .owl-nav .owl-next:hover i {
   color: var(--bs-white);
 }
-/*** Packages End ***/
-/*** Tour Booking Start ***/
 .booking {
   background: linear-gradient(rgba(39, 39, 40, 0.179), rgba(44, 45, 46, 0.8)),
-    url(../img/background.webp);
+    url("/background.webp");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -412,8 +410,6 @@
   color: var(--bs-primary) !important;
 }
 
-/*** Tour Booking end ***/
-/*** Blog Start ***/
 .blog .blog-item .blog-img {
   position: relative;
 }
